@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://aman-potfoloiyo.vercel.app">VIEW PORTFOLIO ↗</a>
+  <a href="https://aman-karmakar.vercel.app">VIEW PORTFOLIO ↗</a>
   &nbsp; · &nbsp;
   <a href="https://aurelis-roan.vercel.app">EXPLORE AURELIS ↗</a>
 </p>
@@ -101,7 +101,7 @@ npm run preview
 ## 05 / Connect
 
 <p align="center">
-  <a href="https://aman-potfoloiyo.vercel.app">PORTFOLIO</a>
+  <a href="https://aman-karmakar.vercel.app">PORTFOLIO</a>
   &nbsp; · &nbsp;
   <a href="https://github.com/akashkarmakar1693-hue">GITHUB</a>
   &nbsp; · &nbsp;
