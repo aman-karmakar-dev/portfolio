@@ -1,91 +1,180 @@
-<p align="center">
-  <img src="./file_00000000abc08210bfe482cfcb9b8265.png" alt="Aman's Portfolio Banner" width="100%" />
-</p><h1 align="center">Aman | Frontend Developer</h1><p align="center">
-  <strong>Digital experiences. Designed with intent.</strong>
-</p><p align="center">
-  <a href="https://aman-karmakar.vercel.app">VIEW PORTFOLIO ↗</a>
-  &nbsp; · &nbsp;
-  <a href="https://aurelis-roan.vercel.app">EXPLORE AURELIS ↗</a>
-</p>---
 
-01 / About
+<div align="center">
 
-I build considered digital interfaces with a focus on typography, responsive layouts, accessibility, and meaningful interaction.
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0B0C0E&height=220&section=header&text=AMAN%20KARMAKAR&fontSize=48&fontColor=F1EEE7&fontAlignY=42&desc=FRONTEND%20DEVELOPER%20%2F%20UI%20DESIGNER&descAlignY=64&descSize=13&descColor=C4F56A" width="100%" alt="Aman Karmakar profile banner"/>
 
-My approach combines thoughtful visual design with purposeful frontend development. Every interaction, transition, and layout decision should contribute to the overall experience.
+<br/>
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=19&duration=3000&pause=1000&color=C4F56A&center=true&vCenter=true&width=600&lines=Design-minded+Frontend+Developer;Building+thoughtful+digital+experiences;Focused+on+UI%2C+motion+and+interaction" alt="Introduction"/>
 
-02 / Featured Project
+<br/><br/>
 
-AURELIS
+<a href="https://aman-karmakar.vercel.app">
+<img src="https://img.shields.io/badge/EXPLORE%20PORTFOLIO-C4F56A?style=for-the-badge&labelColor=0B0C0E" alt="Portfolio"/>
+</a>
+&nbsp;
+<a href="https://github.com/aman-karmakar-dev">
+<img src="https://img.shields.io/badge/GITHUB-F1EEE7?style=for-the-badge&labelColor=0B0C0E" alt="GitHub"/>
+</a>
 
-A luxury real-estate website concept focused on architectural imagery, editorial storytelling, and immersive property presentation.
-
-<p align="center">
-  <a href="https://aurelis-roan.vercel.app">
-    <strong>EXPLORE THE LIVE EXPERIENCE ↗</strong>
-  </a>
-</p>- Role: Frontend Development & Interface Design
-- Stack: React, JavaScript, Vite, Tailwind CSS, GSAP
-- Focus: Responsive layouts, animation, typography, and visual storytelling
-- Status: Live
+</div>
 
 ---
 
-03 / Tech Stack
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-0B0C0E?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/JavaScript-0B0C0E?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-  <img src="https://img.shields.io/badge/Vite-0B0C0E?style=for-the-badge&logo=vite&logoColor=646CFF" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-0B0C0E?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/GSAP-0B0C0E?style=for-the-badge&logo=greensock&logoColor=88CE02" />
-  <img src="https://img.shields.io/badge/Motion-0B0C0E?style=for-the-badge&logo=framer&logoColor=BB4BFF" />
-</p>Also working with:
+### 01 / THE INTRODUCTION
 
-- React Router
-- Lucide React
-- CSS animations
-- Responsive UI development
+# Building with purpose.
+
+</div>
+
+I'm Aman, a frontend developer interested in creating digital experiences where **visual design meets thoughtful engineering**.
+
+I focus on translating ideas into polished interfaces through typography, layout, responsive design and meaningful motion.
+
+My approach is simple: every detail should have a reason to exist.
 
 ---
 
-04 / Run Locally
+<div align="center">
 
-Clone the repository:
+### 02 / SELECTED WORK
 
-git clone https://github.com/aman-karmakar-dev/portfolio.git
+# A collection of ideas.
 
-Navigate into the project:
+</div>
 
-cd portfolio
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Install dependencies:
+<a href="https://aurelis-roan.vercel.app/">
+<img src="https://raw.githubusercontent.com/aman-karmakar-dev/AURELIS/main/public/images/hero-architectural.png" width="100%" alt="AURELIS architectural hero"/>
+</a>
 
-npm install
+### AURELIS
 
-Start the development server:
+**LUXURY REAL ESTATE EXPERIENCE**
 
-npm run dev
+An architectural real-estate website concept built around immersive visuals, refined typography and editorial storytelling.
 
-Production Build
+**STACK**
 
-npm run build
-npm run preview
+React · JavaScript · Vite · Tailwind CSS · GSAP
+
+<a href="https://aurelis-roan.vercel.app/">EXPLORE PROJECT ↗</a>
+
+<br/>
+
+<a href="https://github.com/aman-karmakar-dev/AURELIS">SOURCE CODE ↗</a>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://aman-karmakar.vercel.app">
+<img src="https://raw.githubusercontent.com/aman-karmakar-dev/portfolio/main/public/images/homepage.png" width="100%" alt="Personal portfolio homepage"/>
+</a>
+
+### PERSONAL PORTFOLIO
+
+**DARK EDITORIAL EXPERIENCE**
+
+A personal digital portfolio presenting frontend work, interface design and a design-focused development approach.
+
+**STACK**
+
+React · JavaScript · Vite · Tailwind CSS · GSAP · Motion
+
+<a href="https://aman-karmakar.vercel.app">EXPLORE PROJECT ↗</a>
+
+<br/>
+
+<a href="https://github.com/aman-karmakar-dev/portfolio">SOURCE CODE ↗</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-05 / Connect
+<div align="center">
 
-<p align="center">
-  <a href="https://aman-karmakar.vercel.app">PORTFOLIO</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/aman-karmakar-dev">GITHUB</a>
-  &nbsp; · &nbsp;
-  <a href="https://aurelis-roan.vercel.app">AURELIS</a>
-</p><p align="center">
-  <strong>Designed with intent. Built with purpose.</strong>
-  <br />
-  <sub>© Aman · Frontend Developer</sub>
-</p>
+### 03 / CAPABILITIES
+
+# The tools behind the work.
+
+</div>
+
+**FRONTEND DEVELOPMENT**
+
+<img src="https://skillicons.dev/icons?i=react,js,html,css,vite" alt="Frontend technologies"/>
+
+**STYLING & MOTION**
+
+<img src="https://skillicons.dev/icons?i=tailwind,gsap" alt="Styling and animation technologies"/>
+
+**DESIGN & WORKFLOW**
+
+<img src="https://skillicons.dev/icons?i=figma,git,github,vscode" alt="Design and development tools"/>
+
+---
+
+<div align="center">
+
+### 04 / CURRENT DIRECTION
+
+# Always refining.
+
+</div>
+
+- Exploring advanced frontend development.
+- Building visually considered interfaces.
+- Learning more about motion design and interaction.
+- Improving responsive design and component architecture.
+- Experimenting with new technologies and creative approaches.
+
+---
+
+<div align="center">
+
+### 05 / GITHUB ACTIVITY
+
+<img src="https://github-readme-stats.vercel.app/api?username=aman-karmakar-dev&show_icons=true&hide_border=true&bg_color=0B0C0E&title_color=C4F56A&text_color=F1EEE7&icon_color=C4F56A&rank_icon=github" width="100%" alt="GitHub statistics"/>
+
+<img src="https://streak-stats.demolab.com?user=aman-karmakar-dev&hide_border=true&background=0B0C0E&ring=C4F56A&fire=C4F56A&currStreakLabel=C4F56A&sideLabels=F1EEE7&currStreakNum=F1EEE7&sideNums=F1EEE7&dates=858585" width="100%" alt="GitHub contribution streak"/>
+
+</div>
+
+---
+
+<div align="center">
+
+### 06 / LET'S CONNECT
+
+# Have an idea worth building?
+
+I'm interested in thoughtful projects, creative collaborations and opportunities to build better digital experiences.
+
+<br/>
+
+<a href="https://aman-karmakar.vercel.app">
+<img src="https://img.shields.io/badge/VISIT%20MY%20PORTFOLIO-C4F56A?style=for-the-badge&labelColor=0B0C0E" alt="Visit portfolio"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/aman-karmakar-dev">GITHUB</a>
+&nbsp; · &nbsp;
+<a href="https://aman-karmakar.vercel.app">PORTFOLIO</a>
+
+<br/><br/>
+
+<sub>DESIGNED WITH INTENT · BUILT WITH CURIOSITY</sub>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0B0C0E&height=65&section=footer" width="100%" alt="Footer"/>
+
+</div>
+
