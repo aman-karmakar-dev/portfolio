@@ -1,16 +1,35 @@
-# React + Vite
+Aman | Frontend Developer
+Digital experiences. Designed with intent.
+A personal portfolio showcasing thoughtful interface design, responsive frontend development, and purposeful motion.
+🌐 Live Portfolio: https://aman-potfoloiyo.vercel.app
+About
+I build considered digital interfaces with a focus on typography, responsive layouts, and meaningfidark editorial design system with restrained lime accents and motion that supports the experience rather than distracting from it.
+Featured Work
+AURELIS
+A luxury real-estate website concept focused on architectural imagery, editorial storytelling, and immersive property presentation.
+Role: Frontend Development & Interface Design
+Stack: React, JavaScript, Vite, Tailwind CSS, GSAP
+Live Website: https://aurelis-roan.vercel.app
+Tech Stack
+React
+JavaScript
+Vite
+Tailwind CSS 4
+GSAP & @gsap/react
+Motion
+React Router
+Lucide React
+Run Locally
+git clone https://github.com/akashkarmakar1693-hue/portfolio.git
+cd portfolio
+npm install
+npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To create a production build:
+npm run build
+npm run preview
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Links
+Portfolio
+AURELIS
+GitHub Repository
