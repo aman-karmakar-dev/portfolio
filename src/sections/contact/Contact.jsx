@@ -12,7 +12,6 @@ const ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY
 
 const details = [
   { label: 'Email', value: contact.email, href: `mailto:${contact.email}` },
-  { label: 'Phone / WhatsApp', value: contact.phone, href: contact.whatsapp },
   { label: 'GitHub', value: contact.githubHandle, href: contact.github },
 ]
 

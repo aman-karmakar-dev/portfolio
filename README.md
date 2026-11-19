@@ -1,17 +1,12 @@
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                 AMAN KARMAKAR / PORTFOLIO               -->
-<!-- ═══════════════════════════════════════════════════════ -->
+<!-- ──────────────────────────────────────────────────────────── -->
+<!--              AMAN KARMAKAR / PORTFOLIO                       -->
+<!-- ──────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080B09,45:14251A,100:080B09&height=210&section=header&text=PORTFOLIO&fontSize=54&fontColor=F1EEE7&fontAlignY=40&desc=AMAN%20KARMAKAR%20%20%E2%80%A2%20%20FRONTEND%20DEVELOPER&descSize=13&descColor=C4F56A&descAlignY=62&animation=fadeIn" alt="Portfolio header"/>
 
 <br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=18&duration=3000&pause=1200&color=C4F56A&center=true&vCenter=true&width=620&lines=Digital+experiences.+Designed+with+intent.;Thoughtful+interfaces.+Purposeful+motion.;Frontend+development+meets+visual+design." alt="Portfolio introduction"/>
-
-<br/><br/>
 
 <a href="https://aman-karmakar.vercel.app">
   <img src="https://img.shields.io/badge/VISIT%20LIVE%20PORTFOLIO-C4F56A?style=for-the-badge&labelColor=0B0C0E&logo=vercel&logoColor=C4F56A" alt="Visit portfolio"/>
@@ -37,7 +32,7 @@
 
 </div>
 
-This repository contains my personal frontend development portfolio, built to present selected projects, design thinking and development capabilities through a carefully crafted digital experience.
+This repository contains my personal frontend development portfolio — a place to present selected projects, design thinking and development capabilities through a carefully crafted digital experience.
 
 The direction combines **dark editorial design**, expressive typography, structured layouts and purposeful motion.
 
@@ -86,57 +81,28 @@ Motion-led Details
 | Primary text | Warm White `#F1EEE7` |
 | Accent | Lime `#C4F56A` |
 | Surface | `#141518` |
+| Muted text | `#858585` |
 | Display type | Space Grotesk |
 | Body type | Inter |
 | Editorial type | Instrument Serif |
 
-The visual system uses restrained contrast, fine borders and typography to create a consistent identity without unnecessary decoration.
+The visual system uses restrained contrast, fine borders and typography to create a consistent identity without unnecessary decoration. Fonts are self-hosted — no external font requests.
 
 ---
 
 <div align="center">
 
-### 03 / EXPERIENCE
+### 03 / SELECTED WORK
 
-# Built around the details.
-
-</div>
-
-**01 — Editorial Interface**
-
-A typography-led layout with clear hierarchy, generous spacing and carefully structured content.
-
-**02 — Motion & Interaction**
-
-GSAP and Motion bring movement to selected interface elements without making the experience dependent on animation.
-
-**03 — Responsive Design**
-
-Layouts adapt across desktop and mobile screen sizes.
-
-**04 — Dedicated Case Study**
-
-A separate project route presents the AURELIS real-estate experience.
-
----
-
-<div align="center">
-
-### 04 / SELECTED WORK
-
-# Featured project
+# Three builds, one standard.
 
 </div>
 
-<table>
-<tr>
-<td width="100%" valign="top">
+### 01 — AURELIS
 
 <a href="https://aurelis-roan.vercel.app/">
-<img src="https://raw.githubusercontent.com/aman-karmakar-dev/AURELIS/main/public/images/hero-architectural.png" width="100%" alt="AURELIS architectural real estate project"/>
+<img src="public/images/homepage.png" width="100%" alt="AURELIS homepage with a full-screen architectural image and editorial property typography"/>
 </a>
-
-### AURELIS
 
 **LUXURY REAL ESTATE EXPERIENCE**
 
@@ -144,21 +110,47 @@ A premium real-estate website concept focused on architectural storytelling, imm
 
 `REACT` &nbsp; `JAVASCRIPT` &nbsp; `VITE` &nbsp; `TAILWIND CSS` &nbsp; `GSAP`
 
+<a href="https://aurelis-roan.vercel.app/">Live experience ↗</a>
+&nbsp; · &nbsp;
+<a href="https://github.com/aman-karmakar-dev/AURELIS">Source code ↗</a>
+&nbsp; · &nbsp;
+<a href="https://aman-karmakar.vercel.app/work/aurelis">Case study ↗</a>
+
 <br/>
 
-<a href="https://aurelis-roan.vercel.app/">LIVE EXPERIENCE ↗</a>
-&nbsp; · &nbsp;
-<a href="https://github.com/aman-karmakar-dev/AURELIS">SOURCE CODE ↗</a>
+### 02 — SOVI
 
-</td>
-</tr>
-</table>
+<a href="https://sovi-coffee.vercel.app/">
+<img src="public/images/sovi-case-study-assets/screenshots/desktop/01-homepage-hero.png" width="100%" alt="SOVI homepage with the headline A little more room for coffee and a kraft coffee bag beside a ceramic cup"/>
+</a>
+
+**SPECIALTY COFFEE STOREFRONT**
+
+A premium coffee storefront for a small-batch roaster — warm editorial branding, a three-step brew ritual, a journal and a newsletter signup. Live in production.
+
+`REACT` &nbsp; `JAVASCRIPT` &nbsp; `TAILWIND CSS` &nbsp; `GSAP` &nbsp; `MOTION`
+
+<a href="https://sovi-coffee.vercel.app/">Live experience ↗</a>
+&nbsp; · &nbsp;
+<a href="https://aman-karmakar.vercel.app/work/sovi">Case study ↗</a>
+
+<br/>
+
+### 03 — AMAZON CLONE
+
+<img src="public/images/amazon-clone/homepage.png" width="100%" alt="Amazon Clone storefront with product grid and category navigation"/>
+
+**E-COMMERCE FRONTEND**
+
+An e-commerce frontend inspired by Amazon's shopping experience, with product search, category filtering, product details, cart, quantity updates and localStorage persistence.
+
+`HTML` &nbsp; `CSS` &nbsp; `JAVASCRIPT`
 
 ---
 
 <div align="center">
 
-### 05 / TECHNOLOGY
+### 04 / TECHNOLOGY
 
 # The toolkit
 
@@ -178,7 +170,7 @@ A premium real-estate website concept focused on architectural storytelling, imm
 
 <div align="center">
 
-### 06 / UNDER THE HOOD
+### 05 / UNDER THE HOOD
 
 # Project architecture
 
@@ -188,30 +180,31 @@ A premium real-estate website concept focused on architectural storytelling, imm
 |:--|:--|
 | Framework | React 19 |
 | Build tool | Vite 8 |
-| Language | JavaScript |
+| Language | JavaScript (JSX, never TypeScript) |
 | Styling | Tailwind CSS 4 |
-| Animation | GSAP + Motion |
-| Routing | React Router |
+| Animation | GSAP + `@gsap/react`, Motion |
+| Routing | React Router 7 |
 | Icons | Lucide React |
-| Typography | Self-hosted fonts |
+| Typography | Self-hosted Space Grotesk, Inter, Instrument Serif |
 
 **Application routes**
 
-- `/` — Main portfolio experience
+- `/` — main portfolio experience
 - `/work/aurelis` — AURELIS project case study
+- `/work/sovi` — SOVI project case study
 
 **Additional implementation details**
 
-- Self-hosted Space Grotesk, Inter and Instrument Serif fonts.
-- Responsive navigation and shared site layout.
-- Reduced-motion accessibility support.
+- Shared site layout with responsive navigation and footer.
+- Reduced-motion accessibility support via `prefers-reduced-motion` and Motion's `useReducedMotion`.
 - Custom design tokens and reusable styling.
+- Enquiry form backed by Web3Forms (key supplied via environment variable).
 
 ---
 
 <div align="center">
 
-### 07 / RUN LOCALLY
+### 06 / RUN LOCALLY
 
 # Get started
 
@@ -235,11 +228,28 @@ npm run dev
 npm run build
 ```
 
+**Lint**
+
+```bash
+npm run lint
+```
+
+**Contact form (optional)**
+
+The enquiry form submits through [Web3Forms](https://web3forms.com). It works in production when an access key is configured; without one the form shows an error state instead of sending. To run it locally:
+
+```bash
+cp .env.example .env.local
+# set VITE_WEB3FORMS_ACCESS_KEY in .env.local — never commit it
+```
+
+`.env.local` is git-ignored. Only `.env.example` is committed, with no values.
+
 ---
 
 <div align="center">
 
-### 08 / EXPLORE
+### 07 / EXPLORE
 
 # Experience the portfolio.
 
@@ -254,6 +264,8 @@ npm run build
 <a href="https://github.com/aman-karmakar-dev">GITHUB PROFILE</a>
 &nbsp; · &nbsp;
 <a href="https://aurelis-roan.vercel.app/">AURELIS PROJECT</a>
+&nbsp; · &nbsp;
+<a href="https://sovi-coffee.vercel.app/">SOVI PROJECT</a>
 
 <br/><br/>
 
@@ -264,5 +276,3 @@ npm run build
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080B09,50:14251A,100:080B09&height=110&section=footer" alt="Footer"/>
 
 </div>
-
-

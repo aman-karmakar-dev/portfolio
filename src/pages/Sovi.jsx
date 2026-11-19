@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowUpRight } from 'lucide-react'
 
 gsap.registerPlugin(useGSAP, ScrollTrigger)
 
-const shotsBase = '/images/sovi-case-study-assets/sovi-case-study-assets/screenshots/desktop'
+const shotsBase = '/images/sovi-case-study-assets/screenshots/desktop'
 
 const stack = ['React', 'Vite', 'Tailwind CSS', 'GSAP', 'Motion']
 

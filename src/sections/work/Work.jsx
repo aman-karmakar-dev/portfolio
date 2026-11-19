@@ -213,7 +213,7 @@ function Work() {
               className="overflow-hidden rounded-lg bg-surface"
             >
               <img
-                src="/images/sovi-case-study-assets/sovi-case-study-assets/screenshots/desktop/01-homepage-hero.png"
+                src="/images/sovi-case-study-assets/screenshots/desktop/01-homepage-hero.png"
                 alt="SOVI homepage with the headline A little more room for coffee and a kraft coffee bag beside a ceramic cup"
                 width="1518"
                 height="726"
@@ -230,7 +230,7 @@ function Work() {
               className="overflow-hidden rounded-lg bg-surface sm:col-span-7"
             >
               <img
-                src="/images/sovi-case-study-assets/sovi-case-study-assets/screenshots/desktop/02-coffee-collection.png"
+                src="/images/sovi-case-study-assets/screenshots/desktop/02-coffee-collection.png"
                 alt="SOVI coffee collection with the heading Find your everyday coffee and roast cards for Grove, Sunrise and Afterglow"
                 width="1518"
                 height="730"
@@ -245,7 +245,7 @@ function Work() {
               className="overflow-hidden rounded-lg bg-surface sm:col-span-5 sm:mt-12"
             >
               <img
-                src="/images/sovi-case-study-assets/sovi-case-study-assets/screenshots/desktop/04-coffee-ritual.png"
+                src="/images/sovi-case-study-assets/screenshots/desktop/04-coffee-ritual.png"
                 alt="SOVI ritual section on a deep green panel with the heading Good coffee is a ritual beside a pour-over brewer"
                 width="1513"
                 height="726"

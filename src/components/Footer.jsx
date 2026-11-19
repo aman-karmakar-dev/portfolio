@@ -66,12 +66,10 @@ function Footer() {
             </ul>
 
             <a
-              href={contact.whatsapp}
-              target="_blank"
-              rel="noreferrer"
+              href={`mailto:${contact.email}`}
               className="mt-6 inline-flex items-center gap-2 border-b border-line py-2 font-display text-sm font-medium tracking-[-0.02em] text-paper transition-colors hover:border-lime hover:text-lime"
             >
-              {contact.phone}
+              {contact.email}
               <ArrowUpRight size={14} aria-hidden="true" />
             </a>
           </div>

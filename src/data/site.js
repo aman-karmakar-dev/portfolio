@@ -25,14 +25,11 @@ export const sovi = {
 
 export const contact = {
   email: 'akashkarmakar1693@gmail.com',
-  phone: '+91 9903201693',
-  whatsapp: 'https://wa.me/919903201693',
-  github: 'https://github.com/akashkarmakar1693-hue',
-  githubHandle: '@akashkarmakar1693-hue',
+  github: 'https://github.com/aman-karmakar-dev',
+  githubHandle: '@aman-karmakar-dev',
 }
 
 export const socials = [
   { label: 'GitHub', href: contact.github, external: true },
-  { label: 'WhatsApp', href: contact.whatsapp, external: true },
   { label: 'Email', href: `mailto:${contact.email}`, external: false },
 ]
