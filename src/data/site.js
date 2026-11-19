@@ -17,6 +17,12 @@ export const aurelis = {
   path: '/work/aurelis',
 }
 
+export const sovi = {
+  name: 'SOVI',
+  path: '/work/sovi',
+  url: 'https://sovi-coffee.vercel.app/',
+}
+
 export const contact = {
   email: 'akashkarmakar1693@gmail.com',
   phone: '+91 9903201693',

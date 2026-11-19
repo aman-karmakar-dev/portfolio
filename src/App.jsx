@@ -3,6 +3,7 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Aurelis from './pages/Aurelis'
 import Home from './pages/Home'
+import Sovi from './pages/Sovi'
 
 function SiteLayout({ children }) {
   return (
@@ -36,6 +37,7 @@ function App() {
           }
         />
         <Route path="/work/aurelis" element={<Aurelis />} />
+        <Route path="/work/sovi" element={<Sovi />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>

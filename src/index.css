@@ -108,6 +108,14 @@
   --color-aurelis-ink: #08090b;
   --color-aurelis-paper: #f3ede2;
   --color-aurelis-gold: #c6a15b;
+
+  --color-sovi-cream: #f3ede1;
+  --color-sovi-card: #faf6ec;
+  --color-sovi-ink: #2c2620;
+  --color-sovi-rust: #b4552d;
+  --color-sovi-leaf: #3f4a3c;
+  --color-sovi-espresso: #3e2f27;
+  --color-sovi-gold: #c9a24b;
 }
 
 @layer base {
@@ -156,6 +164,15 @@
   .aurelis-route :focus-visible {
     outline-color: var(--color-aurelis-gold);
   }
+
+  .sovi-route ::selection {
+    background-color: var(--color-sovi-rust);
+    color: var(--color-sovi-cream);
+  }
+
+  .sovi-route :focus-visible {
+    outline-color: var(--color-sovi-rust);
+  }
 }
 
 @layer components {
@@ -196,6 +213,10 @@
 
   .aurelis-route .nav-link::after {
     background-color: var(--color-aurelis-gold);
+  }
+
+  .sovi-route .nav-link::after {
+    background-color: var(--color-sovi-rust);
   }
 }
 

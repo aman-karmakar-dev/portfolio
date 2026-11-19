@@ -4,7 +4,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import { ArrowUpRight } from 'lucide-react'
-import { aurelis } from '../../data/site'
+import { aurelis, sovi } from '../../data/site'
 
 gsap.registerPlugin(useGSAP, ScrollTrigger)
 
@@ -122,7 +122,8 @@ function Work() {
             Selected work<span className="text-lime">.</span>
           </h2>
           <p className="mt-5 max-w-xl text-sm leading-7 text-muted">
-            Two front-end builds: a luxury real-estate concept and an e-commerce interface.
+            Three front-end builds: a luxury real-estate concept, a specialty coffee
+            storefront and an e-commerce interface.
           </p>
         </header>
 
@@ -193,6 +194,71 @@ function Work() {
 
         <article
           data-work-item
+          className="group grid gap-10 border-b border-line py-16 lg:grid-cols-12 lg:gap-12 lg:py-24"
+        >
+          <div data-work-reveal className="lg:col-span-4 lg:self-start">
+            <ProjectMeta
+              index="02"
+              title={sovi.name}
+              category="Specialty coffee"
+              description="A specialty coffee storefront for a small-batch roaster, with a warm editorial layout, a three-step brew ritual, a journal and a newsletter signup. Live in production."
+              tech={['React', 'Vite', 'Tailwind CSS', 'GSAP', 'Motion']}
+              link={{ href: sovi.path, label: 'View case study' }}
+            />
+          </div>
+
+          <div className="lg:col-span-8">
+            <div
+              data-work-media
+              className="overflow-hidden rounded-lg bg-surface"
+            >
+              <img
+                src="/images/sovi-case-study-assets/sovi-case-study-assets/screenshots/desktop/01-homepage-hero.png"
+                alt="SOVI homepage with the headline A little more room for coffee and a kraft coffee bag beside a ceramic cup"
+                width="1518"
+                height="726"
+                loading="lazy"
+                decoding="async"
+                className={`aspect-[2/1] ${imageClass} group-hover:scale-[1.03]`}
+              />
+            </div>
+          </div>
+
+          <div className="grid gap-4 sm:grid-cols-12 lg:col-span-12">
+            <figure
+              data-work-media
+              className="overflow-hidden rounded-lg bg-surface sm:col-span-7"
+            >
+              <img
+                src="/images/sovi-case-study-assets/sovi-case-study-assets/screenshots/desktop/02-coffee-collection.png"
+                alt="SOVI coffee collection with the heading Find your everyday coffee and roast cards for Grove, Sunrise and Afterglow"
+                width="1518"
+                height="730"
+                loading="lazy"
+                decoding="async"
+                className={`aspect-[2/1] ${imageClass} group-hover:scale-[1.03]`}
+              />
+            </figure>
+
+            <figure
+              data-work-media
+              className="overflow-hidden rounded-lg bg-surface sm:col-span-5 sm:mt-12"
+            >
+              <img
+                src="/images/sovi-case-study-assets/sovi-case-study-assets/screenshots/desktop/04-coffee-ritual.png"
+                alt="SOVI ritual section on a deep green panel with the heading Good coffee is a ritual beside a pour-over brewer"
+                width="1513"
+                height="726"
+                loading="lazy"
+                decoding="async"
+                className={`aspect-[2/1] ${imageClass} group-hover:scale-[1.03]`}
+              />
+            </figure>
+          </div>
+        </article>
+
+        <article
+          data-work-item
           className="group grid gap-10 py-16 lg:grid-cols-12 lg:gap-12 lg:py-24"
         >
           <div className="lg:col-span-7">
@@ -246,7 +312,7 @@ function Work() {
 
           <div data-work-reveal className="lg:col-span-4 lg:col-start-9 lg:self-start">
             <ProjectMeta
-              index="02"
+              index="03"
               title="Amazon Clone"
               category="E-commerce"
               description="An e-commerce frontend inspired by Amazon's shopping experience, with product search, category filtering, product details, cart, quantity updates and localStorage persistence."
